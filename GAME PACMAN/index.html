@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PACMAN GAME</h1>
+    <div class="game-container">
+        <div class="game-invo">
+            <div>score:<span id="score">0</span></div>
+            <div>nyawa:<span id="score">3</span></div>
+        </div>
+        <div id="game-board">
+            <div id="control">
+                <button id="Start-btn">Start-Game</button>
+                <button id="reset-btn">Reset-Game</button>
+            </div>
+        </div>
+
+        <div id="game-over" class="game-over">
+            <h2>Game Over</h2>
+            <p>Skor Akhir:<span id="final-score">0</span></p>
+            <button id="restart-btn">Main Lagi</button>
+        </div>
+    </div>
+    <div id="game-won" class="game-won">
+        <h2>Game Over:<span id="win-score">0</span></h2>
+        <button id="play-again-btn">Main Lagi</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
